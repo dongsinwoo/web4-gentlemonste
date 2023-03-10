@@ -42,14 +42,15 @@ search.on("click",()=>{
         searchBox.fadeIn();
     },500);
     setTimeout(()=>{
-        searchInput.css("transform", "translate(-50%,-50%) scaleX(1)");
+        searchInput.addClass("action");
     },700);
+    
 });
 
 xBtn.on("click",()=>{
     header.fadeIn();
     searchBox.fadeOut();
-    searchInput.css("transform", "translate(-50%,-50%) scaleX(0)");
+    searchInput.removeClass("action");
 });
 
 const swp = ()=>{

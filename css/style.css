@@ -140,6 +140,9 @@ header.color .header-inner .users .ham-btn span{
     outline: none;
     color: #a8a8a8;
 }
+.search-box .top-box .search-input.action{
+    transform: translate(-50%,-50%) scaleX(1);
+}
 .search-box .top-box .search-input::placeholder{
     color: #a8a8a8;
 }
@@ -703,6 +706,9 @@ footer .sec-inner-box .footer-bottom-text .border-bottom-text{
     header .header-inner .users .login{
         display: none;
     }
+    .search-box .top-box{
+        height: 80px;
+    }
     .m-hamburger{
         display: block;
     }
@@ -821,6 +827,7 @@ footer .sec-inner-box .footer-bottom-text .border-bottom-text{
     }
     .search-box .top-box{
         padding: 0 16px;
+        height: 80px;
     }
     .search-box .mid-box .inner-box {
         padding: 0 16px;
@@ -1037,6 +1044,7 @@ footer .sec-inner-box .footer-bottom-text .border-bottom-text{
         width: 24px;
         height: 24px;
     }
+    
     .m-hamburger .ham-btn{
         width: 24px;
         height: 16px;
@@ -1050,6 +1058,34 @@ footer .sec-inner-box .footer-bottom-text .border-bottom-text{
     .banner .banner-text-box h1{
         font-size: 2rem;
         text-align: center;
+    }
+    
+    .search-box .top-box{
+        justify-content: space-between;
+    }
+    .search-box .top-box .x-btn{
+        width: 30px;
+        height: 30px;
+    }
+    .search-box .top-box .search-input{
+        width: 280px;
+        position: static;
+        transform: translate(0,0) scaleX(0);
+    }
+    .search-box .top-box .search-input.action{
+        transform: translate(0,0) scaleX(1);
+    }
+
+    .search-box .mid-box .inner-box{
+        width: 100%;
+        height: 100vh;
+        display: block;
+    }
+    .search-box .mid-box .inner-box .right-item{
+        margin-top: 40px;
+    }
+    .search-box .mid-box .inner-box .head{
+        margin-bottom: 20px;
     }
     .banner .banner-text-box{
         padding-bottom: 0;
