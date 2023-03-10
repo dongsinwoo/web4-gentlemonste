@@ -1,0 +1,16 @@
+html 기능
+1. 반응형 웹사이트 ㅁ
+2. banner section1,2,3 footer x
+
+
+css 기능
+1. 반응형 웹사이트
+2. banner section1,2,3 item-img한테 hover효과 넣을거임 x
+3. m-size footer 진행할 때 checkbox로 on off 구현
+
+
+js 기능 (jquery 구현)
+1. banner 스와이퍼 (pc = 2개, 1200이하 = 1개)
+2. top-btn 클릭시 상단이동
+3. 돋보기 아이콘 클릭시 검색창 생기면서 sub-menu 열림
+4. scroll event haed 컬러 변경

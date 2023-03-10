@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" /> 
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css"> 
+    <title>GENTLE MONSTER</title>
+</head>
+<body>
+    <div id="container">
+        <!-- fixed -->
+        <header class="header">
+            <div class="header-inner">
+                <a href="#none" class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 15.9">
+                        <path d="M7.3 5.3V4.1c0-1.3-.6-1.9-2.1-1.9-1.6 0-2.2.6-2.2 1.9v7.7c0 1.3.5 1.9 2.1 1.9 1.5 0 2.2-1 2.2-2.5V9.4H4.8V7.2h5.5v8.5H7.7v-1.2c-.5.7-1.4 1.5-3.5 1.5C1.5 16 0 14.9 0 11.3V4.8C0 1.3 2.1 0 5.2 0c3 0 5.1 1.4 5.1 4.1v1.2h-3zm14.9-5v2.3h-6v3.9h5.4v2.2h-5.4v4.7h6v2.3h-9V.3h9zm13.5 0v15.3H32L28 3.9v11.7h-3V.3h3.7l4 11.6V.3h3zm12.5 0v2.3h-3.8v13.1h-3V2.6h-3.8V.3h10.6zm4.9 13.1H59v2.3h-8.9V.3h3v13.1zM69.9.3v2.3h-6v3.9h5.4v2.2h-5.4v4.7h6v2.3h-9V.3h9zM91 .3v15.3h-3V3.9l-2.6 11.8H83L80.5 3.8v11.9h-3V.3h4.2L84.2 12 86.7.3H91zM104.1 5v5.9c0 3.7-1.8 5-5.1 5s-5.1-1.2-5.1-5V5c0-3.7 1.8-5 5.1-5s5.1 1.3 5.1 5zm-3-.7c0-1.6-.6-2.1-2.1-2.1-1.6 0-2.1.5-2.1 2.1v7.4c0 1.6.6 2 2.1 2 1.6 0 2.1-.5 2.1-2V4.3zm16.7-4v15.3h-3.7l-4-11.7v11.7h-3V.3h3.7l4 11.6V.3h3zm12.3 3.6v.9h-3V4c0-1.3-.2-1.8-1.7-1.8-1.4 0-1.7.6-1.7 1.6 0 .9.2 1.3 1 1.8l2.9 1.9c1.6 1 2.5 1.6 2.5 4.4 0 2.7-1.8 4-4.7 4-3.5 0-4.9-1.2-4.9-4v-1.3h3v1.1c0 1.6.5 2 1.9 2s1.7-.6 1.7-1.7-.2-1.5-1.2-2.2L123 7.9c-1.8-1.2-2.4-1.8-2.4-4 0-1.9 1.1-3.8 4.7-3.8 3.7-.1 4.8 1.5 4.8 3.8M142.2.3v2.3h-3.8v13.1h-3V2.6h-3.8V.3h10.6zm10.9 0v2.3h-6v3.9h5.4v2.2h-5.4v4.7h6v2.3h-9V.3h9zm12.4 10.2v3.3c0 .8.2 1.5.6 1.9H163c-.3-.4-.5-1.1-.5-1.9v-3.3c0-1.2-.5-1.6-1.6-1.6h-2.1v6.8h-3V.3h5.5c4 0 4.5 2.2 4.5 4.3 0 1.7-.9 2.9-3.1 3.3 1.9.1 2.8 1.1 2.8 2.6zm-4.6-3.9c1.6 0 1.9-.7 1.9-2s-.2-2-1.9-2h-2.1v4h2.1z"></path>
+                    </svg>
+                </a>
+    
+                <ul class="menus">
+                    <li class="menu">
+                        <a href="#none">선글라스</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">안경</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">콜라보레이션</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">스타일</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">브랜드 이슈</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">매장보기</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">수리서비스</a>
+                    </li>
+                </ul>
+    
+                <ul class="users">
+                    <li class="search item">
+                        <a href="#none">
+                            <svg version="1.1" baseProfile="basic" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" xml:space="preserve">
+                                <path d="M13.5,24.1c-5.8,0-10.6-4.8-10.6-10.6S7.7,2.9,13.5,2.9s10.6,4.8,10.6,10.6S19.3,24.1,13.5,24.1z M13.5,4.1
+                                c-5.2,0-9.4,4.2-9.4,9.4c0,5.2,4.2,9.4,9.4,9.4c5.2,0,9.4-4.2,9.4-9.4C22.9,8.3,18.7,4.1,13.5,4.1z"></path>
+                                <rect x="21.2" y="20.7" transform="matrix(0.787 -0.617 0.617 0.787 -10.2878 18.6108)" width="1.2" height="7.1"></rect>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="cart item">
+                        <a href="#none">
+                            <svg version="1.2" baseProfile="tiny" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" xml:space="preserve">
+                                <path d="M20.7,8.9c0.1-1.3,0.1-4.5-1.7-6.5c-1-1.1-2.3-1.6-3.9-1.6c-1.7,0-3,0.6-3.9,1.6c-1.7,2-1.8,5.2-1.7,6.5H3.6v19.8h22.9V8.9
+                                H20.7z M12,3.3c0.7-0.8,1.7-1.2,3-1.2c1.3,0,2.3,0.4,3,1.2c1.5,1.7,1.5,4.6,1.4,5.7h-8.9C10.6,7.9,10.5,5,12,3.3z M25.2,27.6H4.8
+                                V10.1h20.5V27.6z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="login">
+                        <a href="#none">
+                            로그인
+                        </a>
+                    </li>
+                    <li class="kr item">
+                        <a href="#none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="15" viewBox="0 0 24 15" fill="none">
+                                <path d="M3.04297 0.78125V15H0.357422V0.78125H3.04297ZM11.5781 0.78125L5.875 7.71484L2.61328 11.2012L2.13477 8.59375L4.40039 5.6543L8.28711 0.78125H11.5781ZM8.58984 15L4.16602 8.33984L6.08984 6.60156L11.7832 15H8.58984ZM13.0332 0.78125H18.1992C19.2799 0.78125 20.2077 0.94401 20.9824 1.26953C21.7572 1.59505 22.3529 2.07682 22.7695 2.71484C23.1862 3.35286 23.3945 4.13737 23.3945 5.06836C23.3945 5.80404 23.2643 6.44206 23.0039 6.98242C22.7435 7.52279 22.3757 7.97526 21.9004 8.33984C21.4316 8.70443 20.8783 8.99089 20.2402 9.19922L19.4004 9.62891H14.8398L14.8203 7.50977H18.2285C18.7819 7.50977 19.2409 7.41211 19.6055 7.2168C19.9701 7.02148 20.2435 6.7513 20.4258 6.40625C20.6146 6.0612 20.709 5.66732 20.709 5.22461C20.709 4.74935 20.6178 4.33919 20.4355 3.99414C20.2533 3.64258 19.9766 3.3724 19.6055 3.18359C19.2344 2.99479 18.7656 2.90039 18.1992 2.90039H15.7188V15H13.0332V0.78125ZM21.0605 15L17.7695 8.63281L20.6113 8.62305L23.9414 14.8633V15H21.0605Z" fill="#000"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="m-hamburger">
+                        <div class="ham-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        
+        <div class="top-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="41" height="66" viewBox="0 0 41 66" fill="none">
+                <path d="M20.5 3L1.5 22M20.5 3L39.5 22M20.5 3V66" stroke="#343434" stroke-width="3"/>
+            </svg>
+        </div>
+
+        <div class="search-box">
+            <div class="top-box">
+                <a href="#none" class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 15.9">
+                        <path d="M7.3 5.3V4.1c0-1.3-.6-1.9-2.1-1.9-1.6 0-2.2.6-2.2 1.9v7.7c0 1.3.5 1.9 2.1 1.9 1.5 0 2.2-1 2.2-2.5V9.4H4.8V7.2h5.5v8.5H7.7v-1.2c-.5.7-1.4 1.5-3.5 1.5C1.5 16 0 14.9 0 11.3V4.8C0 1.3 2.1 0 5.2 0c3 0 5.1 1.4 5.1 4.1v1.2h-3zm14.9-5v2.3h-6v3.9h5.4v2.2h-5.4v4.7h6v2.3h-9V.3h9zm13.5 0v15.3H32L28 3.9v11.7h-3V.3h3.7l4 11.6V.3h3zm12.5 0v2.3h-3.8v13.1h-3V2.6h-3.8V.3h10.6zm4.9 13.1H59v2.3h-8.9V.3h3v13.1zM69.9.3v2.3h-6v3.9h5.4v2.2h-5.4v4.7h6v2.3h-9V.3h9zM91 .3v15.3h-3V3.9l-2.6 11.8H83L80.5 3.8v11.9h-3V.3h4.2L84.2 12 86.7.3H91zM104.1 5v5.9c0 3.7-1.8 5-5.1 5s-5.1-1.2-5.1-5V5c0-3.7 1.8-5 5.1-5s5.1 1.3 5.1 5zm-3-.7c0-1.6-.6-2.1-2.1-2.1-1.6 0-2.1.5-2.1 2.1v7.4c0 1.6.6 2 2.1 2 1.6 0 2.1-.5 2.1-2V4.3zm16.7-4v15.3h-3.7l-4-11.7v11.7h-3V.3h3.7l4 11.6V.3h3zm12.3 3.6v.9h-3V4c0-1.3-.2-1.8-1.7-1.8-1.4 0-1.7.6-1.7 1.6 0 .9.2 1.3 1 1.8l2.9 1.9c1.6 1 2.5 1.6 2.5 4.4 0 2.7-1.8 4-4.7 4-3.5 0-4.9-1.2-4.9-4v-1.3h3v1.1c0 1.6.5 2 1.9 2s1.7-.6 1.7-1.7-.2-1.5-1.2-2.2L123 7.9c-1.8-1.2-2.4-1.8-2.4-4 0-1.9 1.1-3.8 4.7-3.8 3.7-.1 4.8 1.5 4.8 3.8M142.2.3v2.3h-3.8v13.1h-3V2.6h-3.8V.3h10.6zm10.9 0v2.3h-6v3.9h5.4v2.2h-5.4v4.7h6v2.3h-9V.3h9zm12.4 10.2v3.3c0 .8.2 1.5.6 1.9H163c-.3-.4-.5-1.1-.5-1.9v-3.3c0-1.2-.5-1.6-1.6-1.6h-2.1v6.8h-3V.3h5.5c4 0 4.5 2.2 4.5 4.3 0 1.7-.9 2.9-3.1 3.3 1.9.1 2.8 1.1 2.8 2.6zm-4.6-3.9c1.6 0 1.9-.7 1.9-2s-.2-2-1.9-2h-2.1v4h2.1z"></path>
+                    </svg>
+                </a>
+
+                <input type="text" class="search-input" placeholder="검색어를 입력하세요">
+
+                <div class="x-btn"></div>
+            </div>
+            <div class="mid-box">
+                <div class="inner-box">
+                    <div class="left-item">
+                        <p class="head">
+                            인기검색어
+                        </p>
+                        <ul class="left-content">
+                            <li>
+                                <a href="#none">에디01</a>
+                            </li>
+                            <li>
+                                <a href="#none">제프01</a>
+                            </li>
+                            <li>
+                                <a href="#none">르01</a>
+                            </li>
+                            <li>
+                                <a href="#none">탐부01</a>
+                            </li>
+                            <li>
+                                <a href="#none">봄 컬렉션</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="right-item">
+                        <p class="head">다양한 컬렉션을 만나보세요</p>
+
+                        <div class="right-contant">
+                            <div class="flex-box">
+                                <a href="#none" class="contant">
+                                    <div class="img-box">
+                                        <img src="./img/searchbox-main-menu-선글라스.webp" alt="">
+                                    </div>
+                                    <p class="contant-text">선글라스</p>
+                                </a>
+
+                                <a href="#none" class="contant">
+                                    <div class="img-box">
+                                        <img src="./img/searchbox-main-menu-안경.webp" alt="">
+                                    </div>
+                                    <p class="contant-text">안경</p>
+                                </a>
+
+                                <a href="#none" class="contant">
+                                    <div class="img-box">
+                                        <img src="./img/searchbox-main-menu-베스트셀러선글라스.webp" alt="">
+                                    </div>
+                                    <p class="contant-text">베스트셀러</p>
+                                </a>
+                                
+                                <a href="#na href="#none"" class="contant">
+                                    <div class="img-box">
+                                        <img src="./img/searchbox-main-menu-베스트셀러.webp" alt="">
+                                    </div>
+                                    <p class="contant-text">베스트셀러</p>
+                                </a>
+                            </div>
+                            <div class="flex-box">
+                                <a href="#none" class="contant">
+                                    <div class="img-box">
+                                        <img src="./img/banner-img.jpg" alt="">
+                                    </div>
+                                    <p class="contant-text">2023 컬렉션</p>
+                                </a>
+
+                                <a href="#none" class="contant">
+                                    <div class="img-box">
+                                        <img src="./img/searchbox-main-menu-사각프레임.webp" alt="">
+                                    </div>
+                                    <p class="contant-text">사각프레임</p>
+                                </a>
+
+                                <a href="#none" class="contant">
+                                    <div class="img-box">
+                                        <img src="./img/searchbox-main-menu-켓아이프레임.webp" alt="">
+                                    </div>
+                                    <p class="contant-text">켓아이프레임</p>
+                                </a>
+
+                                <a href="#none" class="contant">
+                                    <div class="img-box">
+                                        <img src="./img/searchbox-main-menu-원형프레임.webp" alt="">
+                                    </div>
+                                    <p class="contant-text">원형프레임</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="m-menu-box">
+            <div class="inner">
+                <ul class="m-menus">
+                    <li class="menu">
+                        <a href="#none">선글라스</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">안경</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">콜라보레이션</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">스타일</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">브랜드 이슈</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">매장보기</a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">수리서비스</a>
+                    </li>
+                </ul>
+                <ul class="users">
+                    <li>
+                        <a href="#none">로그인</a>
+                    </li>
+                    <li>
+                        <a href="#none">장바구니</a>
+                    </li>
+                    <li>
+                        <a href="#none">주문내역</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- /fixed -->
+        <!-- banner -->
+        <section class="banner">
+            <div class="swiper mySwiper swiper-left">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide banner-l-slide1"></div>
+                  <div class="swiper-slide banner-l-slide2"></div>
+                  <div class="swiper-slide banner-l-slide3"></div>
+                  <div class="swiper-slide banner-l-slide4"></div>
+                  <div class="swiper-slide banner-l-slide5"></div>
+                </div>
+              </div>
+              
+              <div class="swiper mySwiper swiper-right">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide banner-r-slide1"></div>
+                  <div class="swiper-slide banner-r-slide2"></div>
+                  <div class="swiper-slide banner-r-slide3"></div>
+                  <div class="swiper-slide banner-r-slide4"></div>
+                  <div class="swiper-slide banner-r-slide5"></div>
+                </div>
+              </div>
+
+              <div class="banner-text-box">
+                <h1>2023 FALL CAMPAIN</h1>
+                <div class="banner-btn-box">
+                    <a href="#none">자세히 보기</a>
+                    <a href="#none">구매하기</a>
+                </div>
+              </div>
+        </section>
+        <!-- /banner -->
+        <!-- section1 -->
+        <section class="sec-1">
+            <div class="sec-inner-box">
+                <!-- m-head -->
+                <div class="m-text">
+                    <h1>Sunglasses</h1>
+                    <a href="#none">더 보기</a>
+                </div>
+                <div class="left-contant-box">
+                    <div class="contant img1">
+                        <img src="./img/핑크르선구라.jpg" alt="">
+                        <a href="#none">자세히 보기</a>
+                    </div>
+                    <div class="contant img2">
+                        <img src="./img/로셀_01_2.jpeg" alt="">
+                        <a href="#none">자세히 보기</a>
+                    </div>
+                    <div class="contant img3">
+                        <img src="./img/엘로우탐부선구라.jpg" alt="">
+                        <a href="#none">자세히 보기</a>
+                    </div>
+                </div>
+                <div class="right-text-box">
+                    <div class="text">
+                        <h1 class="head">
+                            New Colorway
+                        </h1>
+                        <p class="sub-text">
+                            시그니처 제품을 봄을 위한 새로운 컬러웨이로 만나보세요
+                        </p>
+                    </div>
+                    <div class="text">
+                        <h2 class="sub-head">르</h2>
+                        <p class="sub-text">
+                            르는 곡선의 볼륨감이 고급스러운 무드를 연출하는 오발형 실루엣 선글라
+                            스입니다. 감각적인 실루엣과 어우러진 새로운 컬러웨이가 룩에 유니크한
+                            터치를 더해줍니다.
+                        </p>
+                    </div>
+                    <div class="text">
+                        <h2 class="sub-head">탐부</h2>
+                        <p class="sub-text">
+                            탐부는 모던하면서 볼드한 직사각형 실루엣이 돋보이는 선글라스입니다.
+                            봄을 담은 두 가지 컬러웨이와 현대적인 실루엣이 조화를 이루며 다양한
+                            룩에 매치할 수 있는 새로운 에센셜 아이템입니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /section1 -->
+        <!-- section2 -->
+        <section class="sec-2">
+            <div class="sec-inner-box">
+                <!-- m-head -->
+                <div class="m-text">
+                    <h1>Glasses</h1>
+                    <a href="#none">더 보기</a>
+                </div>
+                <div class="left-text-box">
+                    <div class="text">
+                        <h1 class="head">
+                            New Colorway
+                        </h1>
+                        <p class="sub-text">
+                            시그니처 제품을 봄을 위한 새로운 컬러웨이로 만나보세요
+                        </p>
+                    </div>
+                    <div class="text">
+                        <h2 class="sub-head">제프</h2>
+                        <p class="sub-text">
+                            제프는 청키한 사각형 실루엣이 특징적인 아이코닉 안경입니다. 세련된 분
+                            위기를 선사하는 얆은 프레임과 새로운 시즌을 맞아 밝은 색조를 활욯한 오
+                            버사이즈 프레임이 시선을 사로잡습니다.
+                        </p>
+                    </div>
+                    <div class="text">
+                        <h2 class="sub-head">알리오</h2>
+                        <p class="sub-text">
+                            사각형태의 블랙 콤비 프레임입니다. 기존 하금테 프레임인 알리오 모델을
+                            재해석하여 티타늄이 사용된 클래식한 제품입니다. 2021 Collection에서 
+                            새롭게 선보일 팁 디자인과 로고 디테일이 브랜드의 아이덴티티를 강조하
+                            며 엔드피스의 메탈 장식이 특징입니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="right-contant-box">
+                    <div class="contant img1">
+                        <img src="./img/제프.webp" alt="">
+                        <a href="#none">자세히 보기</a>
+                    </div>
+                    <div class="contant img2">
+                        <img src="./img/사우스사이드.webp" alt="">
+                        <a href="#none">자세히 보기</a>
+                    </div>
+                    <div class="contant img3">
+                        <img src="./img/알리오_01.jpeg" alt="">
+                        <a href="#none">자세히 보기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /section2 -->
+         <!-- section3 -->
+        <section class="sec-3">
+            <div class="sec-inner-box">
+                <!-- m-head -->
+                <div class="m-text">
+                    <h1>Shop</h1>
+                    <a href="#none">전체보기</a>
+                </div>
+                <div class="back-img">
+                    <img src="./img/sec-3-bg.png" alt="">
+                </div>
+                <div class="box">
+                    <div class="img-box">
+                        <a href="#none">
+                            <img src="./img/dosan.jpg" alt="">
+                        </a>
+                        <p>자세히 보기</p>
+                    </div>
+                    <div class="text">
+                        <h3>하우스 도산</h3>
+                        <p>
+                            서울특별시 강남구 압구정로<br>
+                            45길 50<br>
+                            +82 070 4128 2126
+                        </p>
+                        <p>
+                            영업시간<br>
+                            월요일~일요일 11:00am~9:00pm
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img-box">
+                        <a href="#none">
+                            <img src="./img/hanam.jpg" alt="">
+                        </a>
+                        <p>자세히 보기</p>
+                    </div>
+                    <div class="text">
+                        <h3>젠틀몬스터 스타필드 하남</h3>
+                        <p>
+                            경기 하남시 미사대로 750<br>
+                            스타필드 하남점 1층<br>
+                            +82 031 8072 8236
+                        </p>
+                        <p>
+                            영업시간<br>
+                            월요일~일요일 10:00am~10:00pm
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img-box">
+                        <a href="#none">
+                            <img src="./img/hongdae.webp" alt="">
+                        </a>
+                        <p>자세히 보기</p>
+                    </div>
+                    <div class="text">
+                        <h3>젠틀몬스터 서울 홍대</h3>
+                        <p>
+                            서울특별시 마포구<br>
+                            독막로7길 54<br>
+                            +82 02 3144 0864
+                        </p>
+                        <p>
+                            영업시간<br>
+                            월요일~일요일 12:00am~9:00pm
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /section3 -->
+        <!-- footer -->
+        <footer class="footer">
+           <div class="sec-inner-box">
+            <div class="footer-top">
+                <div class="contant-texts">
+                    <div class="f-head-box">
+                        <p class="f-head">고객서비스</p>
+                        <span>
+                        </span>
+                    </div>
+                    <ul class="contants">
+                        <li>
+                            <a href="#none">문의</a>
+                        </li>
+                        <li>
+                            <a href="#none">배송</a>
+                        </li>
+                        <li>
+                            <a href="#none">서비스</a>
+                        </li>
+                        <li>
+                            <a href="#none">교환 및 반품</a>
+                        </li>
+                        <li>
+                            <a href="#none">주문취소</a>
+                        </li>
+                        <li>
+                            <a href="#none">주문확인</a>
+                        </li>
+                        <li>
+                            <a href="#none">수리서비스 가이드</a>
+                        </li>
+                        <li>
+                            <a href="#none">제품 사용 가이드</a>
+                        </li>
+                        <li>
+                            <a href="#none">시리얼 넘버 조회</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contant-texts">
+                    <div class="f-head-box">
+                        <p class="f-head">법적고지</p>
+                        <span>
+                        </span>
+                    </div>
+                    <ul class="contants">
+                        <li>
+                            <a href="#none">이용약관</a>
+                        </li>
+                        <li>
+                            <a href="#none">개인정보처리방침</a>
+                        </li>
+                        <li>
+                            <a href="#none">쿠키 정책</a>
+                        </li>
+                        <li>
+                            <a href="#none">기프트카드 이용약관</a>
+                        </li>
+                        <li>
+                    </ul>
+                </div>
+                <div class="contant-texts">
+                    <div class="f-head-box">
+                        <p class="f-head">소셜미디어</p>
+                        <span></span>
+                        
+                    </div>
+                    <ul class="contants">
+                        <li>
+                            <a href="#none">페이스북</a>
+                        </li>
+                        <li>
+                            <a href="#none">인스타그램</a>
+                        </li>
+                        <li>
+                            <a href="#none">유튜브</a>
+                        </li>
+                        <li>
+                            <a href="#none">트위치</a>
+                        </li>
+                        <li>
+                            <a href="#none">카카오톡</a>
+                        </li>
+                        <li>
+                            <a href="#none">핀터레스트</a>
+                        </li>
+                        <li>
+                            <a href="#none">위쳇</a>
+                        </li>
+                        <li>
+                            <a href="#none">웨이보</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer-mid-text">
+                ⓒ 2023 GENTLE MONSTER
+            </p>
+            <p class="footer-bottom-text">
+                주) 아이아이컴바인드 ㅣ 대표자명: 김한국 ㅣ 사업자번호: 119-86-38589 ㅣ 통신판매신고번호: 제 2014-서울마포-1050호 <a href="#none">(사업자 정보 확인)</a>
+                이메일 문의 : <a href="#none">cs@gentlemonster.com</a> ㅣ 개인정보보호책임자: 정태호 ㅣ 주소: 서울특별시 마포구 어술마당로5길 41 ㅣ 대표번호:<a href="#none">1600-2126</a>
+                고객님의 안전한 현금자산 거래를 위하여 하나은행과 채무지급보증계약을 체결하여 보장해드리고 있습니다. <a href="#none" class="border-bottom-text">서비스 가입 사실 확인</a>       
+            </p>
+           </div>
+        </footer>
+        <!-- /footer -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
